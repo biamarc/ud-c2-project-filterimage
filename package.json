@@ -1,0 +1,24 @@
+{
+  "name": "ud-c2-project-filterimage",
+  "version": "1.0.0",
+  "description": "Implement a graphic filter for image manipolation ",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biamarc/ud-c2-project-filterimage.git"
+  },
+  "keywords": [
+    "udacity",
+    "filterimage"
+  ],
+  "author": "biamarc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/biamarc/ud-c2-project-filterimage/issues"
+  },
+  "homepage": "https://github.com/biamarc/ud-c2-project-filterimage#readme"
+}
