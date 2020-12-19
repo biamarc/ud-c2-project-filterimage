@@ -1,2 +1,4 @@
 # ignore file
-.idea
+.idea/
+node_modules/
+www/
