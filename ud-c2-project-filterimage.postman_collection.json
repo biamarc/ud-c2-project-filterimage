@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "3ef41de4-1bc7-4a4d-aac6-1eefabb1921b",
+		"name": "ud-c2-project-filterimage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get filtered kitten image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{HOST}}/filteredimage?image_url=https://unsplash.com/photos/OD9EOzfSOh0/download?force=true%26w=640",
+					"protocol": "http",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://unsplash.com/photos/OD9EOzfSOh0/download?force=true&w=640"
+						}
+					]
+				},
+				"description": "Filter kitten image"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "a6ae0de2-a4e9-488b-82f2-5f907599ce88",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "3b309fed-bd6b-4108-ac91-aa28fb2741a9",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "17222d8a-aaba-4833-a3f0-bbbed04350fd",
+			"key": "HOST",
+			"value": "localhost:8082"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,9 @@
+# ignore file
+.idea/
+node_modules/
+www/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

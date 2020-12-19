@@ -1,0 +1,41 @@
+{
+  "name": "ud-c2-project-filterimage",
+  "version": "1.0.0",
+  "description": "Implement a graphic filter for image manipulation",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "clean": "rm -rf www/ || true",
+    "build": "npm run clean && tsc  && cp package.json www/package.json && cd www && zip -r artifact.zip . && cd ..",
+    "dev": "tsnd ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biamarc/ud-c2-project-filterimage.git"
+  },
+  "keywords": [
+    "udacity",
+    "filterimage"
+  ],
+  "author": "biamarc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/biamarc/ud-c2-project-filterimage/issues"
+  },
+  "homepage": "https://github.com/biamarc/ud-c2-project-filterimage#readme",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.27",
+    "@types/express": "^4.17.0",
+    "@types/node": "^14.14.14",
+    "node-notifier": "^9.0.0",
+    "ts-node-dev": "^1.1.1",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jimp": "^0.16.1"
+  }
+}
